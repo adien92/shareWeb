@@ -10,11 +10,11 @@
 	margin : 0 auto;	
 }
 .centre .logo{
-	width: 120px;
+	width: 150px;
 	height: 60px;
 	background-image: url('../image/web-icon.png');
 	background-repeat:no-repeat;
-	background-size:60px 60px;
+	background-size:150px 60px;
 }
 .centre .nav{
 	width: 450px;
@@ -45,8 +45,9 @@
 	border: 0;
 }
 .centre .search .input_search{
+	color:#767778;
 	width: 150px;
-	background-color: white;
+	background-color: #000000;
 	padding-left: 20px;
 }
 .centre .search .btn_search{	
@@ -54,6 +55,13 @@
 	height: 28px;
 	background-color: #0096EE;
 	color:white;
+	background-image:url('../image/search-icon.png');
+	background-size:22px 22px;	
+	background-repeat:no-repeat;
+	background-position:center center;	
+}
+.centre .search .btn_search:hover{
+	background-color: #166294;
 }
 /*精选文章*/
 .nivo{
@@ -70,7 +78,7 @@
 .nivo .n_centre .nivo_l{
 	height: 280px;
 	width: 700px;
-	background-color: red;
+	
 }
 .nivo .n_centre img{
 	height: 100%;
@@ -79,7 +87,7 @@
 .nivo .n_centre .nivo_r{
 	height: 280px;
 	width: 250px;
-	background-color: red;
+	
 }
 /*快速分类导航*/
 .type{
@@ -89,6 +97,13 @@
 	height: 15px;
 	line-height: 15px;
 }
+.type ul{
+	display: table;
+	margin:0 auto;
+	height:40px;
+	text-align: center;
+	padding:0;
+}
 .type ul li {
 	float: left;	
 	padding: 5px 20px 5px 20px;	
@@ -97,4 +112,155 @@
 .type ul li a{
 	color: #DEDEDE;
 	font-size: 14px;
+}
+/*文章中心*/
+.core{
+	width: 960px;
+	height: 960px;
+	margin : 0 auto;	
+}
+.core .left{
+	background: white;
+	width: 700px;
+}
+
+.core .left .item{
+	height: 180px;
+	width:700px;	
+	margin-bottom: 30px;
+	border: 2px solid white;
+}
+.core .left .item a{
+	color: black;
+}
+.core .left .item a:hover{
+	color: red;
+}
+.core .left .item:hover{
+	/*border: 2px solid #DEDEDE;*/
+	/*background-color: #DEDEDE;*/
+}
+.core .left .item .item_l{
+	height: 180px;
+	width:300px;
+}
+.core .left .item .item_l img{
+	height: 180px;
+	width:300px;
+}
+.core .left .item .item_r{
+	background-color: white;
+	margin-left: 20px;
+	height: 160px;
+	width: 360px;
+	padding-top: 20px;
+}
+.p2{
+	margin-top: 30px;
+}
+.core .left .item .item_r div{
+	height: 20px;
+	background-size:22px 22px;
+	background-repeat:no-repeat;
+	text-align: right;
+	padding-left: 25px;
+}
+.i_view{
+	background-image:url('../image/eye.png');	
+}
+.i_like{		
+	background-image:url('../image/blackheard.png');	
+}
+.i_like:hover{		
+	background-image:url('../image/redheard.png');	
+}
+.line{
+	height: 1px;
+	width: 100%;
+	border-bottom: 2px solid #DEDEDE;
+	margin-bottom: 20px;
+}
+/*右侧小排*/
+.right{
+	width:250px;	
+}
+.right .item{
+	height: 54px;
+	overflow: hidden;
+	margin-bottom:  10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.right .item a{
+	color: black;
+}
+.right .item a:hover{
+	color: red;
+}
+.right .item .item_l {
+	width:100px;
+	height: 54px;	
+}
+.right .item .item_l img{
+	width: 100%;
+	height: 100%;
+}
+.right .item .item_r{	
+	width: 140px;
+	font-size: 13px;
+}
+/*网站地图*/
+.map{
+	width: 960px;
+	height: 235px;
+	margin:0 auto;	
+}
+.map .map_title{
+	height: 50px;
+	line-height: 50px;
+	font-size: 40px;
+	border-top: 10px solid #363635;
+}
+.map .map_list{
+	
+}
+.map .map_list ul{	
+	height: 160px;
+	padding-left: 20px;
+	font-weight: solid;
+	float: left;
+	border-left: 5px solid #363635;
+	width: 120px;
+}
+.map .map_list ul li{
+	color: #363635;
+	margin:5px 40px 0px 20px;
+}
+/*结尾*/
+.footer{
+	height: 100px;
+	background-color: #363635;
+}
+.footer .f_center{
+	width:960px;
+	margin:0 auto;	
+	text-align: center;	
+}
+
+.footer .f_center ul{
+	display: table;
+	margin:0 auto;	
+	text-align: center;
+	padding:0;
+}
+.footer .f_center ul li{
+	float: left;
+	margin: 30px 30px 30px 5px;
+}
+.footer .f_center ul li a{
+	color: white;
+}
+.footer .f_center p{
+	position: relative;
+	top: -20px;
 }
