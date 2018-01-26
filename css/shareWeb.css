@@ -1,0 +1,100 @@
+/*头部*/
+.header{
+	background-color: #363635;	
+	height: 60px;
+	overflow: hidden;
+}
+.centre{
+	width: 960px;
+	height: 60px;
+	margin : 0 auto;	
+}
+.centre .logo{
+	width: 120px;
+	height: 60px;
+	background-image: url('../image/web-icon.png');
+	background-repeat:no-repeat;
+	background-size:60px 60px;
+}
+.centre .nav{
+	width: 450px;
+	height: 60px;	
+	margin-left: 50px;
+}
+.centre .nav ul li{
+	float: left;
+	line-height: 60px;
+	margin-left: 30px;
+}
+.centre .nav ul li a{
+	color: white;
+	font-size: 14px;
+	font-weight: solid;
+}
+.centre .nav ul li a:hover{
+	color:red;
+}
+.centre .search{
+	width: 250px;
+	height: 60px;
+	text-align: right;
+	margin-top: 15px;
+}
+.centre .search input{
+	height: 30px;
+	border: 0;
+}
+.centre .search .input_search{
+	width: 150px;
+	background-color: white;
+	padding-left: 20px;
+}
+.centre .search .btn_search{	
+	width: 50px;
+	height: 28px;
+	background-color: #0096EE;
+	color:white;
+}
+/*精选文章*/
+.nivo{
+	background-color: #DEDEDE;
+	height: 280px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.nivo .n_centre{
+	width: 960px;
+	height: 280px;
+	margin : 0 auto;
+}
+.nivo .n_centre .nivo_l{
+	height: 280px;
+	width: 700px;
+	background-color: red;
+}
+.nivo .n_centre img{
+	height: 100%;
+	width: 100%;
+}
+.nivo .n_centre .nivo_r{
+	height: 280px;
+	width: 250px;
+	background-color: red;
+}
+/*快速分类导航*/
+.type{
+	padding:  20px 0 20px 0;
+	width: 960px;	
+	margin : 0 auto;
+	height: 15px;
+	line-height: 15px;
+}
+.type ul li {
+	float: left;	
+	padding: 5px 20px 5px 20px;	
+	border-right: 1px solid #DEDEDE;
+}
+.type ul li a{
+	color: #DEDEDE;
+	font-size: 14px;
+}
